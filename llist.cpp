@@ -1,7 +1,7 @@
-#include <llist.h>
+#include "llist.h"
 
 #include <stdexcept>
-
+#include <iostream>
 LList::Container::Container(const int &value, LList::Container *next) {
     this->value = value;
     this->next = next;
@@ -32,16 +32,18 @@ void LList::Container::removeNext() {
 LList::LList() : _head(nullptr), _size(0){}
 
 LList::~LList() {
-    forceContainerDelete(_head);
+    forceContainersDelete(_head);
 }
 
 void LList::push_back(int val) {
-    if (_size == 0) {
-        push_front(val);
-    }
-    else{
-        insert_at(_size, val);
-    }
+
+        if (_size == 0) {
+            push_front(val);
+        }
+        else{
+            insert_at(_size, val);
+        }
+
 }
 
 void LList::push_front(int val) {
@@ -163,12 +165,52 @@ void LList::insertContainer(const size_t pos, LList::Container *container) {
     }
 }
 
-void LList::forceContainerDelete(LList::Container *container) {
+void LList::forceContainersDelete(LList::Container *container) {
     if (container == nullptr) {
         return;
     }
+    Container* nextDeleteContainer;
+    do{
+        nextDeleteContainer = container->next;
+        delete container;
+        container = nextDeleteContainer;
+    }while(nextDeleteContainer);
+}
 
-    Container* nextDeleteContainer = container->next;
-    delete container;
-    forceContainerDelete(nextDeleteContainer);
+LList::LList(const LList &copyList) {
+    this->_size = copyList._size;
+    if (this->_size == 0) {
+        this->_head = nullptr;
+        return;
+    }
+
+    this->_head = new Container(copyList._head->value);
+
+    Container* currentContainer = this->_head;
+    Container* currentCopyContainer = copyList._head;
+
+    while (currentCopyContainer->next) {
+        currentContainer->next = new Container(currentCopyContainer->next->value);//fixed
+        currentCopyContainer = currentCopyContainer->next;
+        currentContainer = currentContainer->next;
+    }
+    currentContainer->next = nullptr;
+}
+
+LList &LList::operator=(const LList &copyList) {
+    if (this == &copyList) {
+        return *this;
+    }
+    forceContainersDelete(_head);//удалить весь текущий список
+    this->_head = new Container(copyList._head->value);//копирование головы
+    Container* currentContainer = this->_head;
+    Container* currentCopyContainer = copyList._head;
+    while (currentCopyContainer->next) {
+        currentContainer->next = new Container(currentCopyContainer->next->value);
+        currentCopyContainer = currentCopyContainer->next;
+        currentContainer = currentContainer->next;
+    }
+    currentContainer->next = nullptr;//на всякий случай
+    _size = copyList._size;
+    return *this;
 }

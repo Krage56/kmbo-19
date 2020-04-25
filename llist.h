@@ -7,16 +7,15 @@
 
 class LList
 {
-    struct Container {
+    class Container {
         explicit Container(const int& value, Container* next = nullptr);
         ~Container();
-
+        int value;
+        Container* next;
+        friend  class LList;
         void insertNext(const int& value);
         void insertNext(Container* container);
         void removeNext();
-
-        int value;
-        Container* next;
     };
 
 public:
@@ -34,14 +33,14 @@ public:
 	void erase_at(size_t idx);       // remove item at specific position: [1 2 3 4], 2 -> [1 2 4]
 	void insert_at(size_t idx, int val); // insert item at specific position: [1 2 3 4], 1, 5 -> [1 5 2 3 4]
 	void reverse();                  // reverse item sequense: [1 2 3 4] -> [4 3 2 1]
-
-    void forceContainerDelete(Container* container);
+    LList(const LList& copyList); //copy-constructor
+    LList& operator=(const LList& copyList);
+    void forceContainersDelete(Container* container);
 private:
     Container*	_head;
     size_t	_size;
     Container* getContainer(size_t pos) const;
     void insertContainer(size_t pos, LList::Container *container);
-
 };
 
 #endif //LLIST_H

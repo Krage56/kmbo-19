@@ -12,20 +12,14 @@ void dump(const LList& l)
 int main()
 {
     LList l;
-    l.push_back(1);
-    l.push_front(0);
-    l.push_back(2);
-
-    cout << "Stage 1: "; dump(l); cout << endl;
-
-    l.insert_at(1, 10);
-    cout << "Stage 2: "; dump(l); cout << endl;
-
-    l.erase_at(1);
-    cout << "Stage 2: "; dump(l); cout << endl;
-
-    l.reverse();
-    cout << "Stage 3: "; dump(l); cout << endl;
-
+    LList tmp;
+    for (int i = 0; i < 20000; ++i) {
+        tmp.push_back(i);
+    }
+    //Если отсутствуют move-конструкторы, сработают
+    //обычные конструкторы копирования
+    l = std::move(tmp);
+    //При MOVE_ENABLE=1 пик потребления памяти - ~540KB
+    //При MOVE_ENABLE=0 пик потребления памяти - ~980KB
 	return 0;
 }

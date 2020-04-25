@@ -177,6 +177,34 @@ void LList::forceContainersDelete(LList::Container *container) {
     }while(nextDeleteContainer);
 }
 
+LList LList::reverse() const {
+    LList result = *this;
+    result.reverse();
+    return result;
+}
+
+#if ENABLE_MOVE
+LList::LList(LList &&moveList) noexcept {
+    this->_size = moveList._size;
+    this->_head = moveList._head;
+    moveList._size = 0;
+    moveList._head = nullptr;
+}
+
+LList &LList::operator=(LList &&moveList) noexcept {
+    if (this == &moveList) {
+        return *this;
+    }
+    forceContainerDelete(_head);
+    this->_size = moveList._size;
+    this->_head = moveList._head;
+
+    moveList._size = 0;
+    moveList._head = nullptr;
+
+    return *this;
+}
+#endif
 LList::LList(const LList &copyList) {
     this->_size = copyList._size;
     if (this->_size == 0) {

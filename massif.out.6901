@@ -1,0 +1,816 @@
+desc: --time-unit=B
+cmd: ./move
+time_unit: B
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=72712
+mem_heap_B=72704
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=91864
+mem_heap_B=85472
+mem_heap_extra_B=6392
+mem_stacks_B=0
+heap_tree=detailed
+n3: 85472 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EC2424: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n1: 12752 0x108CCB: LList::Container::insertNext(int const&) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+  n1: 12752 0x109114: LList::insert_at(unsigned long, int) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+   n1: 12752 0x108E27: LList::push_back(int) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+    n0: 12752 0x1097B4: main (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+ n0: 16 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=3
+#-----------
+time=104152
+mem_heap_B=93664
+mem_heap_extra_B=10488
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=116440
+mem_heap_B=101856
+mem_heap_extra_B=14584
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=128728
+mem_heap_B=110048
+mem_heap_extra_B=18680
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=149464
+mem_heap_B=123872
+mem_heap_extra_B=25592
+mem_stacks_B=0
+heap_tree=detailed
+n3: 123872 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EC2424: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n1: 51152 0x108CCB: LList::Container::insertNext(int const&) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+  n1: 51152 0x109114: LList::insert_at(unsigned long, int) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+   n1: 51152 0x108E27: LList::push_back(int) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+    n0: 51152 0x1097B4: main (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+ n0: 16 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=161752
+mem_heap_B=132064
+mem_heap_extra_B=29688
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=174040
+mem_heap_B=140256
+mem_heap_extra_B=33784
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=186328
+mem_heap_B=148448
+mem_heap_extra_B=37880
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=198616
+mem_heap_B=156640
+mem_heap_extra_B=41976
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=210904
+mem_heap_B=164832
+mem_heap_extra_B=46072
+mem_stacks_B=0
+heap_tree=detailed
+n3: 164832 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 92112 0x108CCB: LList::Container::insertNext(int const&) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+  n1: 92112 0x109114: LList::insert_at(unsigned long, int) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+   n1: 92112 0x108E27: LList::push_back(int) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+    n0: 92112 0x1097B4: main (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+ n1: 72704 0x4EC2424: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n0: 16 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=12
+#-----------
+time=223192
+mem_heap_B=173024
+mem_heap_extra_B=50168
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=235480
+mem_heap_B=181216
+mem_heap_extra_B=54264
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=247768
+mem_heap_B=189408
+mem_heap_extra_B=58360
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=260056
+mem_heap_B=197600
+mem_heap_extra_B=62456
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=272344
+mem_heap_B=205792
+mem_heap_extra_B=66552
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=284632
+mem_heap_B=213984
+mem_heap_extra_B=70648
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=296920
+mem_heap_B=222176
+mem_heap_extra_B=74744
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=309208
+mem_heap_B=230368
+mem_heap_extra_B=78840
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=321496
+mem_heap_B=238560
+mem_heap_extra_B=82936
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=333784
+mem_heap_B=246752
+mem_heap_extra_B=87032
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=346072
+mem_heap_B=254944
+mem_heap_extra_B=91128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=358360
+mem_heap_B=263136
+mem_heap_extra_B=95224
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=370648
+mem_heap_B=271328
+mem_heap_extra_B=99320
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=379864
+mem_heap_B=277472
+mem_heap_extra_B=102392
+mem_stacks_B=0
+heap_tree=detailed
+n3: 277472 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 204752 0x108CCB: LList::Container::insertNext(int const&) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+  n1: 204752 0x109114: LList::insert_at(unsigned long, int) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+   n1: 204752 0x108E27: LList::push_back(int) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+    n0: 204752 0x1097B4: main (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+ n1: 72704 0x4EC2424: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n0: 16 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=26
+#-----------
+time=392152
+mem_heap_B=285664
+mem_heap_extra_B=106488
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=404440
+mem_heap_B=293856
+mem_heap_extra_B=110584
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=416728
+mem_heap_B=302048
+mem_heap_extra_B=114680
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=429016
+mem_heap_B=310240
+mem_heap_extra_B=118776
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=441304
+mem_heap_B=318432
+mem_heap_extra_B=122872
+mem_stacks_B=0
+heap_tree=detailed
+n3: 318432 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 245712 0x108CCB: LList::Container::insertNext(int const&) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+  n1: 245712 0x109114: LList::insert_at(unsigned long, int) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+   n1: 245712 0x108E27: LList::push_back(int) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+    n0: 245712 0x1097B4: main (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+ n1: 72704 0x4EC2424: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n0: 16 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=31
+#-----------
+time=453592
+mem_heap_B=326624
+mem_heap_extra_B=126968
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=465880
+mem_heap_B=334816
+mem_heap_extra_B=131064
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=478168
+mem_heap_B=343008
+mem_heap_extra_B=135160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=490456
+mem_heap_B=351200
+mem_heap_extra_B=139256
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=502744
+mem_heap_B=359392
+mem_heap_extra_B=143352
+mem_stacks_B=0
+heap_tree=detailed
+n3: 359392 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 286672 0x108CCB: LList::Container::insertNext(int const&) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+  n1: 286672 0x109114: LList::insert_at(unsigned long, int) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+   n1: 286672 0x108E27: LList::push_back(int) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+    n0: 286672 0x1097B4: main (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+ n1: 72704 0x4EC2424: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n0: 16 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=36
+#-----------
+time=515032
+mem_heap_B=367584
+mem_heap_extra_B=147448
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=527320
+mem_heap_B=375776
+mem_heap_extra_B=151544
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=539608
+mem_heap_B=383968
+mem_heap_extra_B=155640
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=552712
+mem_heap_B=392704
+mem_heap_extra_B=160008
+mem_stacks_B=0
+heap_tree=peak
+n3: 392704 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 319984 0x108CCB: LList::Container::insertNext(int const&) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+  n1: 319984 0x109114: LList::insert_at(unsigned long, int) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+   n1: 319984 0x108E27: LList::push_back(int) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+    n0: 319984 0x1097B4: main (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+ n1: 72704 0x4EC2424: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n0: 16 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=40
+#-----------
+time=565000
+mem_heap_B=384512
+mem_heap_extra_B=155912
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=577288
+mem_heap_B=376320
+mem_heap_extra_B=151816
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=589576
+mem_heap_B=368128
+mem_heap_extra_B=147720
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=601864
+mem_heap_B=359936
+mem_heap_extra_B=143624
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=614152
+mem_heap_B=351744
+mem_heap_extra_B=139528
+mem_stacks_B=0
+heap_tree=detailed
+n3: 351744 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 279040 0x108CCB: LList::Container::insertNext(int const&) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+  n1: 279040 0x109114: LList::insert_at(unsigned long, int) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+   n1: 279040 0x108E27: LList::push_back(int) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+    n0: 279040 0x1097B4: main (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+ n1: 72704 0x4EC2424: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=45
+#-----------
+time=626440
+mem_heap_B=343552
+mem_heap_extra_B=135432
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=638728
+mem_heap_B=335360
+mem_heap_extra_B=131336
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=651016
+mem_heap_B=327168
+mem_heap_extra_B=127240
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=663304
+mem_heap_B=318976
+mem_heap_extra_B=123144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=681736
+mem_heap_B=306688
+mem_heap_extra_B=117000
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=690952
+mem_heap_B=300544
+mem_heap_extra_B=113928
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=700168
+mem_heap_B=294400
+mem_heap_extra_B=110856
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=709384
+mem_heap_B=288256
+mem_heap_extra_B=107784
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=718600
+mem_heap_B=282112
+mem_heap_extra_B=104712
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=727816
+mem_heap_B=275968
+mem_heap_extra_B=101640
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=737032
+mem_heap_B=269824
+mem_heap_extra_B=98568
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=746248
+mem_heap_B=263680
+mem_heap_extra_B=95496
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=755464
+mem_heap_B=257536
+mem_heap_extra_B=92424
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=764680
+mem_heap_B=251392
+mem_heap_extra_B=89352
+mem_stacks_B=0
+heap_tree=detailed
+n3: 251392 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 178688 0x108CCB: LList::Container::insertNext(int const&) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+  n1: 178688 0x109114: LList::insert_at(unsigned long, int) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+   n1: 178688 0x108E27: LList::push_back(int) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+    n0: 178688 0x1097B4: main (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+ n1: 72704 0x4EC2424: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=59
+#-----------
+time=773896
+mem_heap_B=245248
+mem_heap_extra_B=86280
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=783112
+mem_heap_B=239104
+mem_heap_extra_B=83208
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=792328
+mem_heap_B=232960
+mem_heap_extra_B=80136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=801544
+mem_heap_B=226816
+mem_heap_extra_B=77064
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=810760
+mem_heap_B=220672
+mem_heap_extra_B=73992
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=819976
+mem_heap_B=214528
+mem_heap_extra_B=70920
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=829192
+mem_heap_B=208384
+mem_heap_extra_B=67848
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=838408
+mem_heap_B=202240
+mem_heap_extra_B=64776
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=847624
+mem_heap_B=196096
+mem_heap_extra_B=61704
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=856840
+mem_heap_B=189952
+mem_heap_extra_B=58632
+mem_stacks_B=0
+heap_tree=detailed
+n3: 189952 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 117248 0x108CCB: LList::Container::insertNext(int const&) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+  n1: 117248 0x109114: LList::insert_at(unsigned long, int) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+   n1: 117248 0x108E27: LList::push_back(int) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+    n0: 117248 0x1097B4: main (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+ n1: 72704 0x4EC2424: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=69
+#-----------
+time=866056
+mem_heap_B=183808
+mem_heap_extra_B=55560
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=875272
+mem_heap_B=177664
+mem_heap_extra_B=52488
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=884488
+mem_heap_B=171520
+mem_heap_extra_B=49416
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=893704
+mem_heap_B=165376
+mem_heap_extra_B=46344
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=902920
+mem_heap_B=159232
+mem_heap_extra_B=43272
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=912136
+mem_heap_B=153088
+mem_heap_extra_B=40200
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=921352
+mem_heap_B=146944
+mem_heap_extra_B=37128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=930568
+mem_heap_B=140800
+mem_heap_extra_B=34056
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=939784
+mem_heap_B=134656
+mem_heap_extra_B=30984
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=949000
+mem_heap_B=128512
+mem_heap_extra_B=27912
+mem_stacks_B=0
+heap_tree=detailed
+n3: 128512 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EC2424: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n1: 55808 0x108CCB: LList::Container::insertNext(int const&) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+  n1: 55808 0x109114: LList::insert_at(unsigned long, int) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+   n1: 55808 0x108E27: LList::push_back(int) (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+    n0: 55808 0x1097B4: main (in /home/krage56/Рабочий стол/MIREA/SEM2/move semantic/move)
+ n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=79
+#-----------
+time=958216
+mem_heap_B=122368
+mem_heap_extra_B=24840
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=967432
+mem_heap_B=116224
+mem_heap_extra_B=21768
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=81
+#-----------
+time=976648
+mem_heap_B=110080
+mem_heap_extra_B=18696
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=82
+#-----------
+time=985864
+mem_heap_B=103936
+mem_heap_extra_B=15624
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=995080
+mem_heap_B=97792
+mem_heap_extra_B=12552
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=84
+#-----------
+time=1004296
+mem_heap_B=91648
+mem_heap_extra_B=9480
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=85
+#-----------
+time=1013512
+mem_heap_B=85504
+mem_heap_extra_B=6408
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=86
+#-----------
+time=1022728
+mem_heap_B=79360
+mem_heap_extra_B=3336
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=87
+#-----------
+time=1031944
+mem_heap_B=73216
+mem_heap_extra_B=264
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=88
+#-----------
+time=1105424
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=detailed
+n1: 0 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 0 in 3 places, all below massif's threshold (1.00%)

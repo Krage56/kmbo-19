@@ -1,0 +1,793 @@
+desc: --time-unit=B
+cmd: ./move
+time_unit: B
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=72712
+mem_heap_B=72704
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=91864
+mem_heap_B=85472
+mem_heap_extra_B=6392
+mem_stacks_B=0
+heap_tree=detailed
+n3: 85472 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EC2424: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n1: 12752 0x108CCB: LList::Container::insertNext(int const&) (llist.cpp:13)
+  n1: 12752 0x109114: LList::insert_at(unsigned long, int) (llist.cpp:120)
+   n1: 12752 0x108E27: LList::push_back(int) (llist.cpp:44)
+    n0: 12752 0x1096FE: main (main.cpp:17)
+ n0: 16 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=3
+#-----------
+time=116440
+mem_heap_B=101856
+mem_heap_extra_B=14584
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=149464
+mem_heap_B=123872
+mem_heap_extra_B=25592
+mem_stacks_B=0
+heap_tree=detailed
+n3: 123872 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EC2424: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n1: 51152 0x108CCB: LList::Container::insertNext(int const&) (llist.cpp:13)
+  n1: 51152 0x109114: LList::insert_at(unsigned long, int) (llist.cpp:120)
+   n1: 51152 0x108E27: LList::push_back(int) (llist.cpp:44)
+    n0: 51152 0x1096FE: main (main.cpp:17)
+ n0: 16 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=5
+#-----------
+time=174040
+mem_heap_B=140256
+mem_heap_extra_B=33784
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=198616
+mem_heap_B=156640
+mem_heap_extra_B=41976
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=223192
+mem_heap_B=173024
+mem_heap_extra_B=50168
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=247768
+mem_heap_B=189408
+mem_heap_extra_B=58360
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=272344
+mem_heap_B=205792
+mem_heap_extra_B=66552
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=296920
+mem_heap_B=222176
+mem_heap_extra_B=74744
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=321496
+mem_heap_B=238560
+mem_heap_extra_B=82936
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=346072
+mem_heap_B=254944
+mem_heap_extra_B=91128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=379864
+mem_heap_B=277472
+mem_heap_extra_B=102392
+mem_stacks_B=0
+heap_tree=detailed
+n3: 277472 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 204752 0x108CCB: LList::Container::insertNext(int const&) (llist.cpp:13)
+  n1: 204752 0x109114: LList::insert_at(unsigned long, int) (llist.cpp:120)
+   n1: 204752 0x108E27: LList::push_back(int) (llist.cpp:44)
+    n0: 204752 0x1096FE: main (main.cpp:17)
+ n1: 72704 0x4EC2424: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n0: 16 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=14
+#-----------
+time=404440
+mem_heap_B=293856
+mem_heap_extra_B=110584
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=429016
+mem_heap_B=310240
+mem_heap_extra_B=118776
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=453592
+mem_heap_B=326624
+mem_heap_extra_B=126968
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=478168
+mem_heap_B=343008
+mem_heap_extra_B=135160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=502744
+mem_heap_B=359392
+mem_heap_extra_B=143352
+mem_stacks_B=0
+heap_tree=detailed
+n3: 359392 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 286672 0x108CCB: LList::Container::insertNext(int const&) (llist.cpp:13)
+  n1: 286672 0x109114: LList::insert_at(unsigned long, int) (llist.cpp:120)
+   n1: 286672 0x108E27: LList::push_back(int) (llist.cpp:44)
+    n0: 286672 0x1096FE: main (main.cpp:17)
+ n1: 72704 0x4EC2424: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n0: 16 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=19
+#-----------
+time=527320
+mem_heap_B=375776
+mem_heap_extra_B=151544
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=551896
+mem_heap_B=392160
+mem_heap_extra_B=159736
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=576472
+mem_heap_B=408544
+mem_heap_extra_B=167928
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=601048
+mem_heap_B=424928
+mem_heap_extra_B=176120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=625624
+mem_heap_B=441312
+mem_heap_extra_B=184312
+mem_stacks_B=0
+heap_tree=detailed
+n4: 441312 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 319984 0x108CCB: LList::Container::insertNext(int const&) (llist.cpp:13)
+  n1: 319984 0x109114: LList::insert_at(unsigned long, int) (llist.cpp:120)
+   n1: 319984 0x108E27: LList::push_back(int) (llist.cpp:44)
+    n0: 319984 0x1096FE: main (main.cpp:17)
+ n1: 72704 0x4EC2424: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n1: 48592 0x109582: LList::operator=(LList const&) (llist.cpp:237)
+  n0: 48592 0x109722: main (main.cpp:21)
+ n0: 32 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=24
+#-----------
+time=650200
+mem_heap_B=457696
+mem_heap_extra_B=192504
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=674776
+mem_heap_B=474080
+mem_heap_extra_B=200696
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=699352
+mem_heap_B=490464
+mem_heap_extra_B=208888
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=723928
+mem_heap_B=506848
+mem_heap_extra_B=217080
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=748504
+mem_heap_B=523232
+mem_heap_extra_B=225272
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=773080
+mem_heap_B=539616
+mem_heap_extra_B=233464
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=797656
+mem_heap_B=556000
+mem_heap_extra_B=241656
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=822232
+mem_heap_B=572384
+mem_heap_extra_B=249848
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=846808
+mem_heap_B=588768
+mem_heap_extra_B=258040
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=871384
+mem_heap_B=605152
+mem_heap_extra_B=266232
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=895960
+mem_heap_B=621536
+mem_heap_extra_B=274424
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=920536
+mem_heap_B=637920
+mem_heap_extra_B=282616
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=945112
+mem_heap_B=654304
+mem_heap_extra_B=290808
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=969688
+mem_heap_B=670688
+mem_heap_extra_B=299000
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=994264
+mem_heap_B=687072
+mem_heap_extra_B=307192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=1032712
+mem_heap_B=712704
+mem_heap_extra_B=320008
+mem_stacks_B=0
+heap_tree=peak
+n4: 712704 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 319984 0x108CCB: LList::Container::insertNext(int const&) (llist.cpp:13)
+  n1: 319984 0x109114: LList::insert_at(unsigned long, int) (llist.cpp:120)
+   n1: 319984 0x108E27: LList::push_back(int) (llist.cpp:44)
+    n0: 319984 0x1096FE: main (main.cpp:17)
+ n1: 319984 0x109582: LList::operator=(LList const&) (llist.cpp:237)
+  n0: 319984 0x109722: main (main.cpp:21)
+ n1: 72704 0x4EC2424: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n0: 32 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=40
+#-----------
+time=1057288
+mem_heap_B=696320
+mem_heap_extra_B=311816
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=1081864
+mem_heap_B=679936
+mem_heap_extra_B=303624
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=1106440
+mem_heap_B=663552
+mem_heap_extra_B=295432
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=1131016
+mem_heap_B=647168
+mem_heap_extra_B=287240
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=1155592
+mem_heap_B=630784
+mem_heap_extra_B=279048
+mem_stacks_B=0
+heap_tree=detailed
+n4: 630784 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 319984 0x109582: LList::operator=(LList const&) (llist.cpp:237)
+  n0: 319984 0x109722: main (main.cpp:21)
+ n1: 238080 0x108CCB: LList::Container::insertNext(int const&) (llist.cpp:13)
+  n1: 238080 0x109114: LList::insert_at(unsigned long, int) (llist.cpp:120)
+   n1: 238080 0x108E27: LList::push_back(int) (llist.cpp:44)
+    n0: 238080 0x1096FE: main (main.cpp:17)
+ n1: 72704 0x4EC2424: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n0: 16 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=45
+#-----------
+time=1180168
+mem_heap_B=614400
+mem_heap_extra_B=270856
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=1204744
+mem_heap_B=598016
+mem_heap_extra_B=262664
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=1229320
+mem_heap_B=581632
+mem_heap_extra_B=254472
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=1253896
+mem_heap_B=565248
+mem_heap_extra_B=246280
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=1290760
+mem_heap_B=540672
+mem_heap_extra_B=233992
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=1309912
+mem_heap_B=527904
+mem_heap_extra_B=227608
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=1329064
+mem_heap_B=515136
+mem_heap_extra_B=221224
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=1348216
+mem_heap_B=502368
+mem_heap_extra_B=214840
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=1367368
+mem_heap_B=489600
+mem_heap_extra_B=208456
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=1386520
+mem_heap_B=476832
+mem_heap_extra_B=202072
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=1405672
+mem_heap_B=464064
+mem_heap_extra_B=195688
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=1424824
+mem_heap_B=451296
+mem_heap_extra_B=189304
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=1443976
+mem_heap_B=438528
+mem_heap_extra_B=182920
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=1463128
+mem_heap_B=425760
+mem_heap_extra_B=176536
+mem_stacks_B=0
+heap_tree=detailed
+n4: 425760 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 319984 0x109582: LList::operator=(LList const&) (llist.cpp:237)
+  n0: 319984 0x109722: main (main.cpp:21)
+ n1: 72704 0x4EC2424: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n1: 33056 0x108CCB: LList::Container::insertNext(int const&) (llist.cpp:13)
+  n1: 33056 0x109114: LList::insert_at(unsigned long, int) (llist.cpp:120)
+   n1: 33056 0x108E27: LList::push_back(int) (llist.cpp:44)
+    n0: 33056 0x1096FE: main (main.cpp:17)
+ n0: 16 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=59
+#-----------
+time=1482280
+mem_heap_B=412992
+mem_heap_extra_B=170152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=1501432
+mem_heap_B=400224
+mem_heap_extra_B=163768
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=1520584
+mem_heap_B=387456
+mem_heap_extra_B=157384
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=1539736
+mem_heap_B=374688
+mem_heap_extra_B=151000
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=1558888
+mem_heap_B=361920
+mem_heap_extra_B=144616
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=1578040
+mem_heap_B=349152
+mem_heap_extra_B=138232
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=1597192
+mem_heap_B=336384
+mem_heap_extra_B=131848
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=1616344
+mem_heap_B=323616
+mem_heap_extra_B=125464
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=1635496
+mem_heap_B=310848
+mem_heap_extra_B=119080
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=1654648
+mem_heap_B=298080
+mem_heap_extra_B=112696
+mem_stacks_B=0
+heap_tree=detailed
+n3: 298080 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 225376 0x109582: LList::operator=(LList const&) (llist.cpp:237)
+  n0: 225376 0x109722: main (main.cpp:21)
+ n1: 72704 0x4EC2424: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n0: 0 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=69
+#-----------
+time=1673800
+mem_heap_B=285312
+mem_heap_extra_B=106312
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=1692952
+mem_heap_B=272544
+mem_heap_extra_B=99928
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=1712104
+mem_heap_B=259776
+mem_heap_extra_B=93544
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=1731256
+mem_heap_B=247008
+mem_heap_extra_B=87160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=1750408
+mem_heap_B=234240
+mem_heap_extra_B=80776
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=1769560
+mem_heap_B=221472
+mem_heap_extra_B=74392
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=1788712
+mem_heap_B=208704
+mem_heap_extra_B=68008
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=1807864
+mem_heap_B=195936
+mem_heap_extra_B=61624
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=1827016
+mem_heap_B=183168
+mem_heap_extra_B=55240
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=1846168
+mem_heap_B=170400
+mem_heap_extra_B=48856
+mem_stacks_B=0
+heap_tree=detailed
+n3: 170400 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 97696 0x109582: LList::operator=(LList const&) (llist.cpp:237)
+  n0: 97696 0x109722: main (main.cpp:21)
+ n1: 72704 0x4EC2424: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x4010731: _dl_init (dl-init.c:72)
+   n0: 72704 0x40010C8: ??? (in /lib/x86_64-linux-gnu/ld-2.27.so)
+ n0: 0 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=79
+#-----------
+time=1865320
+mem_heap_B=157632
+mem_heap_extra_B=42472
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=1884472
+mem_heap_B=144864
+mem_heap_extra_B=36088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=81
+#-----------
+time=1903624
+mem_heap_B=132096
+mem_heap_extra_B=29704
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=82
+#-----------
+time=1922776
+mem_heap_B=119328
+mem_heap_extra_B=23320
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=1941928
+mem_heap_B=106560
+mem_heap_extra_B=16936
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=84
+#-----------
+time=1961080
+mem_heap_B=93792
+mem_heap_extra_B=10552
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=85
+#-----------
+time=1980232
+mem_heap_B=81024
+mem_heap_extra_B=4168
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=86
+#-----------
+time=2065424
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty

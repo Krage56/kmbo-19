@@ -195,7 +195,7 @@ LList &LList::operator=(LList &&moveList) noexcept {
     if (this == &moveList) {
         return *this;
     }
-    forceContainerDelete(_head);
+    forceContainersDelete(_head);
     this->_size = moveList._size;
     this->_head = moveList._head;
 

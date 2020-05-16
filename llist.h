@@ -35,12 +35,12 @@ public:
 	void insert_at(size_t idx, int val); // insert item at specific position: [1 2 3 4], 1, 5 -> [1 5 2 3 4]
 	void reverse();                  // reverse item sequense: [1 2 3 4] -> [4 3 2 1]
     LList reverse() const;          //reverse list for constant-object
-
+    void forceContainersDelete(Container* container);
 #if ENABLE_MOVE
     LList(LList&& moveList) noexcept;
     LList& operator=(LList&& moveList) noexcept;
 #endif
-    void forceContainersDelete(Container* container);
+
 private:
     Container*	_head;
     size_t	_size;
